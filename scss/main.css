@@ -72,6 +72,19 @@ button {
   text-align: center;
 }
 
+.form__input__field {
+  background-color: white;
+  border: none;
+  border-bottom: 2px solid #62d8bb;
+  margin: 0 0.5rem;
+  padding: 0.25rem;
+}
+
+.form__input__field:focus {
+  border-bottom: 2px solid #ff9a9e;
+  outline: none;
+}
+
 .form__group {
   margin: 0 0.5rem;
 }
