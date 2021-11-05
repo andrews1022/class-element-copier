@@ -1,17 +1,17 @@
-@import "variables";
+@import 'variables';
 
 .heading {
-  font-weight: 900;
-  text-align: center;
+	font-weight: 900;
+	text-align: center;
 
-  &--main {
-    color: $color-primary;
-    font-size: 5rem;
-  }
+	&--main {
+		color: $color-primary;
+		font-size: 5rem;
+	}
 
-  &--sub {
-    color: $color-tertiary;
-    font-size: 1.35rem;
-    margin-bottom: 1.1rem;
-  }
+	&--sub {
+		color: $color-tertiary;
+		font-size: 1.35rem;
+		margin-bottom: 1.1rem;
+	}
 }
